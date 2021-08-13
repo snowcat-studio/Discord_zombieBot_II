@@ -19,6 +19,10 @@ async def 날씨(message):
 async def 마감독촉(message):
     await message.send("마감하십쇼 --")
 
+@app.command(name= "학교")
+async def 마감독촉(message):
+    await message.send("일해라 도비!")
+
 @app.command(name='인사해봐')
 async def 인사(message):
     embed = discord.Embed(title='안녕하세요. 좀비봇II입니다.',description='저는 좀비가 만든 디스코드 봇 2세입니다.\n아래에서 제 명령어를 확인할 수 있습니다.',
